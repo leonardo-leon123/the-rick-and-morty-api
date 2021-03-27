@@ -1,0 +1,64 @@
+
+.TarjetaPersonaje
+{
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 20px 120px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.TarjetaPersonaje h1
+{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.TarjetaPersonaje img 
+{
+    border-radius: 20px;
+    width: 320px;
+    align-self: center;
+}
+.api-data
+{
+    font-size: 24px;
+    display: flex;
+    margin: 20px;
+}
+.api-data span
+{
+    margin-left: 30px;
+}
+
+.btn-buscar 
+{
+    background-color: #FC6CFB;
+    border:none;
+    padding: 17px;
+    border-radius: 12px;
+    color: white;
+    font-size: 24px;
+    transition: background-color 0.5s, padding 0.5s;
+}
+.TarjetaPersonaje a 
+{
+    align-self: center;
+}
+@media screen and (max-width: 480px)
+{
+    .TarjetaPersonaje
+    {
+        padding: 40px 5px;
+    }
+    .TarjetaPersonaje h1
+    {
+        font-size: 32px;
+    }
+    .TarjetaPersonaje img 
+    {
+        width: 250px;
+    }
+}

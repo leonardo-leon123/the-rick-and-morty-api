@@ -1,0 +1,47 @@
+.inicio
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("/src/img/background.png");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.main h1
+{
+    font-size: 120px;
+    text-align: center;
+    color: white;
+}
+.main h2
+{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    margin: 70px;
+}
+@media screen and (max-width: 935px)
+{
+    .main h1
+    {
+        font-size: 50px;
+    }
+    .main h2
+    {
+        font-size: 30px;
+        margin: 0;
+    }
+    .inicio
+    {
+        background-position: -650px;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .inicio
+    {
+        background-position: -800px;
+    }
+}

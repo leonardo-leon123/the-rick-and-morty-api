@@ -1,0 +1,58 @@
+.buscar-personaje-form
+{
+    display: flex;
+    justify-content: center;
+}
+
+.input-buscar
+{
+    padding: 32px;
+    width: 800px;
+    height: 16px;
+    border-radius: 12px;
+    margin: 10px;
+    font-size: 26px;
+    font-family: inherit;
+    text-align: center;
+}
+
+.input-buscar::placeholder
+{
+    color: #6F6E6E;
+    font-size: 18px;
+}
+
+.btn-buscar 
+{
+    background-color: #FC6CFB;
+    border:none;
+    padding: 17px;
+    border-radius: 12px;
+    color: white;
+    font-size: 22px;
+    transition: background-color 0.5s, padding 0.5s;
+    margin: 5px;
+}
+
+.btn-buscar:hover
+{
+    background-color: #b33bb3; 
+    padding: 16px;
+}
+
+@media screen and (max-width: 935px)
+{
+    .buscar-personaje-form
+    {
+        flex-wrap: wrap;
+    }
+    .input-buscar
+    {
+        width: 70%;
+    }
+    .btn-buscar
+    {
+        padding: 16px;
+        font-size: 22px;
+    }
+}
