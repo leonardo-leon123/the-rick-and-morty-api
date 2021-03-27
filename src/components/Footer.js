@@ -5,6 +5,7 @@ import '../styles/Footer.css'
 import Figma from '../img/figma_logo.png'
 import React_logo from '../img/react_logo.png'
 import Heroku from '../img/heroku_icon.png'
+import Github from '../img/github.png'
 
 
 class Footer extends React.Component
@@ -20,6 +21,7 @@ class Footer extends React.Component
                     <a target='_blank' rel="noreferrer" href="https://www.figma.com/file/O47XLMfIqAgeeU01tDsLfe/Rick-and-morty-api?node-id=0%3A1"><img className="build-logo" src={Figma} alt="Figma"/></a>
                     <a target='_blank' rel="noreferrer" href="https://es.reactjs.org/"><img className="build-logo" src={React_logo} alt="React"/></a>
                     <a target='_blank' rel="noreferrer" href="https://www.heroku.com/"><img className="build-logo" src={Heroku}alt="Heroku"/></a>
+                    <a target='_blank' rel="noreferrer" href="https://github.com/leonardo-leon123/the-rick-and-morty-api.git"> <img className="build-logo" src={Github}alt="Github"/></a>
                 </div>
             </section>
         )
